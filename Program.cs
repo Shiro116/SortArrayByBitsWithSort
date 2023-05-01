@@ -7,7 +7,7 @@
  */
 Array.Sort(integers, SortByBits);
 
-foreach (int i  in integers)
+foreach (int i in integers)
 {
     Console.WriteLine(i);
 }
