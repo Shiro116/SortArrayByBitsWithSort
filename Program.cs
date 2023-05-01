@@ -1,13 +1,14 @@
-﻿int[] integers = { 7, 6, 14, 2, 6 };
+int[] integers = { 7, 6, 14, 2, 6, 16 };
 /*
  * 7 - 0111 = 3bits
  * 6 - 0110 = 2bits
  * 14 - 1110 = 3bits
- * 2 - 0010 = 1bits
+ * 2 - 0010 = 1bit
+ * 16 - 10000 = 1bit
  */
 Array.Sort(integers, SortByBits);
 
-foreach (int i in integers)
+foreach (int i  in integers)
 {
     Console.WriteLine(i);
 }
